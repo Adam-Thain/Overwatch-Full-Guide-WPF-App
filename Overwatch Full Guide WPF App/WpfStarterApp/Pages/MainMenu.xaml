@@ -1,0 +1,59 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.Pages.MainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600"
+      Title="MainMenu">
+
+    <Grid>
+
+        <!-- Main Content Scroll Image -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+
+            <!-- Container for page content -->
+            <StackPanel VerticalAlignment="top" HorizontalAlignment="Center">
+
+                <!-- Logo -->
+                <Image x:Name="AppLogo" Source="/Images/Logo/Overwatch-Banner.png" Height="80" Width="400" />
+
+                <!-- Selection Stack -->
+                <StackPanel>
+
+                    <!-- Character Select Page button -->
+                    <Button x:Name="CharacterSelect" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="CharacterSelect_Click"
+                            Height="30"
+                            Width="200"
+                            Content="Character Select"
+                        />
+
+                    <!-- Video Select Page button -->
+                    <Button x:Name="VideoSelect" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="VideoSelect_Click"
+                            Height="30"
+                            Width="200"
+                            Content="Video Select"
+                        />
+
+                    <!-- Map Select Page button -->
+                    <Button x:Name="MapSelect" 
+                            Style="{StaticResource BaseButton}"
+                            Click="MapSelect_Click"
+                            Height="30"
+                            Width="200"
+                            Content="Map Select"
+                        />
+
+                </StackPanel>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+</Page>

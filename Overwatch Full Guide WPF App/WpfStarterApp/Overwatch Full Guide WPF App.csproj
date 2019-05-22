@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged2.Fody.2.5.13\build\PropertyChanged2.Fody.props" Condition="Exists('..\packages\PropertyChanged2.Fody.2.5.13\build\PropertyChanged2.Fody.props')" />
+  <Import Project="..\packages\PropertyChanged.Fody.2.6.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.2.6.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57B9DD82-9C5F-46A2-8E5F-3DD370044F03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Overwatch_Full_Guide_WPF_App</RootNamespace>
+    <AssemblyName>Overwatch Full Guide WPF App</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PropertyChanged, Version=2.6.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.2.6.0\lib\net452\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyChanged2, Version=2.5.13.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged2.Fody.2.5.13\lib\net40\PropertyChanged2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ContentHolders\CharacterSelectFrame.xaml.cs">
+      <DependentUpon>CharacterSelectFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentHolders\CharacterStatsBox.xaml.cs">
+      <DependentUpon>CharacterStatsBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentHolders\ImageGalleryFrame.xaml.cs">
+      <DependentUpon>ImageGalleryFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentHolders\MapStatsBox.xaml.cs">
+      <DependentUpon>MapStatsBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContentHolders\VideoFrame.xaml.cs">
+      <DependentUpon>VideoFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataModels\MapPages.cs" />
+    <Compile Include="DataModels\CharacterPage.cs" />
+    <Compile Include="DataModels\ApplicationPage.cs" />
+    <Compile Include="Pages\Characters\CharacterInfoPage.xaml.cs">
+      <DependentUpon>CharacterInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Maps\MapInfoPage.xaml.cs">
+      <DependentUpon>MapInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Maps\MapSelect.xaml.cs">
+      <DependentUpon>MapSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\VideoSelect.xaml.cs">
+      <DependentUpon>VideoSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\Base\BaseViewModel.cs" />
+    <Compile Include="ViewModel\Base\RelayCommand.cs" />
+    <Compile Include="ViewModel\WindowViewModel.cs" />
+    <Compile Include="Window\WindowResizer.cs" />
+    <Page Include="ContentHolders\CharacterSelectFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentHolders\CharacterStatsBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentHolders\ImageGalleryFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentHolders\MapStatsBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContentHolders\VideoFrame.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\Characters\CharacterInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Characters\CharacterSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Maps\MapInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Maps\MapSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\VideoSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\TextFiles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Videos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Buttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Colours.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Fonts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Images.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Texts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Windows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\Characters\CharacterSelect.xaml.cs">
+      <DependentUpon>CharacterSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Fonts\Lato-Black.ttf" />
+    <Resource Include="Fonts\Lato-BlackItalic.ttf" />
+    <Resource Include="Fonts\Lato-Bold.ttf" />
+    <Resource Include="Fonts\Lato-BoldItalic.ttf" />
+    <Resource Include="Fonts\Lato-Hairline.ttf" />
+    <Resource Include="Fonts\Lato-HairlineItalic.ttf" />
+    <Resource Include="Fonts\Lato-Heavy.ttf" />
+    <Resource Include="Fonts\Lato-Italic.ttf" />
+    <Resource Include="Fonts\Lato-Light.ttf" />
+    <Resource Include="Fonts\Lato-LightItalic.ttf" />
+    <Resource Include="Fonts\Lato-Medium.ttf" />
+    <Resource Include="Fonts\Lato-MediumItalic.ttf" />
+    <Resource Include="Fonts\Lato-Regular.ttf" />
+    <Resource Include="Fonts\Lato-Semibold.ttf" />
+    <Resource Include="Fonts\Lato-Thin.ttf" />
+    <Resource Include="Fonts\Lato-ThinItalic.ttf" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\Overwatch-Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Mercy_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Brigitte_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Moira_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Ana_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Lúcio_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Zenyatta_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_DVa_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Orisa_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Reinhardt_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Roadhog_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Symmetra_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Winston_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Zarya_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sprites\Spray_Bastion_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Doomfist_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Genji_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Hanzo_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Junkrat_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_McCree_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Mei_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Pharah_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Reaper_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Soldier76_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Sombra_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Torbjörn_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Tracer_Pixel.png" />
+    <Resource Include="Images\Sprites\Spray_Widowmaker_Pixel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\Overwatch-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cutes\Spray_Ana_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Bastion_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Brigitte_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_DVa_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Doomfist_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Genji_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Hanzo_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Junkrat_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Lúcio_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_McCree_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Mei_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Mercy_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Moira_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Orisa_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Pharah_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Reaper_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Reinhardt_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Roadhog_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Soldier76_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Sombra_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Symmetra_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Torbjörn_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Tracer_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Widowmaker_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Winston_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Wrecking_Ball_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Zarya_Cute.png" />
+    <Resource Include="Images\Cutes\Spray_Zenyatta_Cute.png" />
+    <Resource Include="Images\Character Artworks\Orisa-portrait.png" />
+    <Resource Include="Images\Character Artworks\Winston-portrait.png" />
+    <Resource Include="Images\Character Artworks\Wrecking_Ball.png" />
+    <Resource Include="Images\Character Artworks\Ana-portrait.png" />
+    <Resource Include="Images\Character Artworks\Symmetra-portrait.png" />
+    <Resource Include="Images\Character Artworks\Moira-portrait.png" />
+    <Resource Include="Images\Character Artworks\Tracer-portrait.png" />
+    <Resource Include="Images\Character Artworks\Lúcio-portrait.png" />
+    <Resource Include="Images\Character Artworks\Mei-portrait.png" />
+    <Resource Include="Images\Character Artworks\Soldier76-portrait.png" />
+    <Resource Include="Images\Character Artworks\Brigitte-portrait.png" />
+    <Resource Include="Images\Character Artworks\Mccree-portrait.png" />
+    <Resource Include="Images\Character Artworks\Pharah-portrait.png" />
+    <Resource Include="Images\Character Artworks\Zenyatta-portrait.png" />
+    <Resource Include="Images\Character Artworks\Reaper-portrait.png" />
+    <Resource Include="Images\Character Artworks\Junkrat-Portrait.png" />
+    <Resource Include="Images\Character Artworks\Hanzo-portrait.png" />
+    <Resource Include="Images\Character Artworks\Genji-portrait.png" />
+    <Resource Include="Images\Character Artworks\Bastion-portrait.png" />
+    <Resource Include="Images\Character Artworks\DVa-portrait.png" />
+    <Resource Include="Images\Character Artworks\Roadhog-Portrait.png" />
+    <Resource Include="Images\Character Artworks\Sombra-portrait.png" />
+    <Resource Include="Images\Character Artworks\Zarya-portrait.png" />
+    <Resource Include="Images\Character Artworks\Reinhardt-portrait.png" />
+    <Resource Include="Images\Character Artworks\Torbjörn-portrait.png" />
+    <Resource Include="Images\Character Artworks\Mercy-portrait.png" />
+    <Resource Include="Images\Character Artworks\Widowmaker-portrait.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Alive_Thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Cinematic_Trailer_thumbnail.jpg" />
+    <Resource Include="Images\Video Placeholders\1200px-Dragons_Thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Hero_Thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Honor_and_Glory.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Infiltration_thumbnail.jpg" />
+    <Resource Include="Images\Video Placeholders\1200px-Recall_Thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Reunion_thumbnail.jpg" />
+    <Resource Include="Images\Video Placeholders\1200px-Rise_and_Shine_thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-Shooting_Star_thumbnail.jpg" />
+    <Resource Include="Images\Video Placeholders\1200px-The_Last_Bastion_thumbnail.png" />
+    <Resource Include="Images\Video Placeholders\1200px-The_Plan_thumbnail.jpg" />
+    <Resource Include="Images\Character Artworks\Doomfist-portrait.png" />
+    <Resource Include="Images\Misc\video-play-3-512.png" />
+    <Resource Include="Images\Misc\play-button-circled.png" />
+    <Resource Include="Images\Misc\play.png" />
+    <Resource Include="Images\Character Icons\Icon-Ana.png" />
+    <Resource Include="Images\Character Icons\Icon-Bastion.png" />
+    <Resource Include="Images\Character Icons\Icon-Brigitte.png" />
+    <Resource Include="Images\Character Icons\Icon-Doomfist.png" />
+    <Resource Include="Images\Character Icons\Icon-Genji.png" />
+    <Resource Include="Images\Character Icons\Icon-Hanzo.png" />
+    <Resource Include="Images\Character Icons\Icon-Junkrat.png" />
+    <Resource Include="Images\Character Icons\Icon-Lúcio.png" />
+    <Resource Include="Images\Character Icons\Icon-McCree.png" />
+    <Resource Include="Images\Character Icons\Icon-Mei.png" />
+    <Resource Include="Images\Character Icons\Icon-Mercy.png" />
+    <Resource Include="Images\Character Icons\Icon-Moira.png" />
+    <Resource Include="Images\Character Icons\Icon-Orisa.png" />
+    <Resource Include="Images\Character Icons\Icon-Pharah.png" />
+    <Resource Include="Images\Character Icons\Icon-Reaper.png" />
+    <Resource Include="Images\Character Icons\Icon-Reinhardt.png" />
+    <Resource Include="Images\Character Icons\Icon-Roadhog.png" />
+    <Resource Include="Images\Character Icons\Icon-Soldier_76.png" />
+    <Resource Include="Images\Character Icons\Icon-Sombra.png" />
+    <Resource Include="Images\Character Icons\Icon-Symmetra.png" />
+    <Resource Include="Images\Character Icons\Icon-Torbjörn.png" />
+    <Resource Include="Images\Character Icons\Icon-Tracer.png" />
+    <Resource Include="Images\Character Icons\Icon-Widowmaker.png" />
+    <Resource Include="Images\Character Icons\Icon-Winston.png" />
+    <Resource Include="Images\Character Icons\Icon-Wrecking_Ball.png" />
+    <Resource Include="Images\Character Icons\Icon-Zarya.png" />
+    <Resource Include="Images\Character Icons\Icon-Zenyatta.png" />
+    <Resource Include="Images\Character Icons\20181018235404!Icon-D.Va.png" />
+    <Resource Include="Images\Misc\Media_player_icons-12-512.png" />
+    <Resource Include="TextFiles\CharacterInfos\TracerInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\McCreeInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\GenjiInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\MercyInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\HanzoInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\DVaInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\JunkratInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\RoadhogInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\SombraInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\SymmetraInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\MoiraInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\ReinhardtInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\MeiInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\PharahInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\WidowmakerInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\ReaperInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\AnaInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\ZaryaInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\BrigitteInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\DoomfistInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\TorbjörnInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\Soldier76Info.txt" />
+    <Resource Include="TextFiles\CharacterInfos\ZenyattaInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\LúcioInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\WinstonInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\OrisaInfo.txt" />
+    <Resource Include="TextFiles\CharacterInfos\BastionInfo.txt" />
+    <Resource Include="TextFiles\VideoInfos\VideoDescriptions.txt" />
+    <Resource Include="TextFiles\MapInfos\HanamuraInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\HorizonLunarColonyInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\TempleOfAnubisInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\VolskayaIndustriesInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\JunkertownInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\DoradoInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\RialtoInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\Route66Info.txt" />
+    <Resource Include="TextFiles\MapInfos\WatchpointGibraltarInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\BlizzardWorldInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\EichenwaldeInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\HollywoodInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\KingsRowInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\NumbaniInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\IliosInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\LijiangTowerInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\NepalInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\BusanInfo.txt" />
+    <Resource Include="TextFiles\MapInfos\OasisInfo.txt" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_001.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_002.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_003.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_004.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_005.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_006.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_007.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_008.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_009.jpg" />
+    <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_010.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Hanamura_concept.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Anubis_concept.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_001.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_002.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_003.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_004.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_005.jpg" />
+    <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_006.jpg" />
+    <Resource Include="Images\Maps\Dorado\1200px-Dorado-streets2.jpg" />
+    <Resource Include="Images\Maps\Junkertown\1200px-Junkertown.jpg" />
+    <Resource Include="Images\Maps\Rialto\1200px-Rialto.jpg" />
+    <Resource Include="Images\Maps\Route66\1200px-Route_66.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\WatchpointGibraltar_concept.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_1.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_2.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_3.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_4.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_5.jpg" />
+    <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_6.jpg" />
+    <Resource Include="Images\Maps\BlizzardWorld\1200px-Blizzard_World.jpg" />
+    <Resource Include="Images\Maps\Eichenwalde\1200px-Eichenwalde.png" />
+    <Resource Include="Images\Maps\Hollywood\1200px-Halloween_Hollywood.png" />
+    <Resource Include="Images\Maps\Hollywood\1200px-Hollywood-set.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-King%27s_Row_concept.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_001.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_002.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_003.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_004.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_005.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_006.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_007.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_008.jpg" />
+    <Resource Include="Images\Maps\KingsRow\1200px-Kings_Row_009.jpg" />
+    <Resource Include="Images\Maps\Numbani\1200px-Numbani_Loading_Screen.jpg" />
+    <Resource Include="Images\Maps\Busan\Overwatch_Busan.jpg" />
+    <Resource Include="Images\Maps\Ilios\1200px-Ilios.jpg" />
+    <Resource Include="Images\Maps\LijiangTower\1200px-Lijiang_Tower_loading_screen.jpg" />
+    <Resource Include="Images\Maps\Nepal\1200px-Nepal_loading_screen.jpg" />
+    <Resource Include="Images\Maps\Oasis\1200px-Oasis.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\BlizzardWorld_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\1200px-Eichenwalde.png" />
+    <Resource Include="Images\Maps\MapPortraits\Nepal_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Numbani_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Oasis_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\TempleOfAnubis_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Route66_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Rialto_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\LijiangTower_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\KingsRow_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Junkertown_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Ilios_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Hollywood_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Dorado_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Busan_concept.jpg" />
+    <Resource Include="Images\Maps\VolskayaIndustries\1200px-Volskaya_Industries.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\VolskayaIndustries_concept.jpg" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Infiltration_.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Recall_.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Rise and Shine_.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _The Last Bastion_.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Alive.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Dragons.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Hero.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Honor and Glory.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Reunion.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ Shooting Star.mp4" />
+    <Content Include="Videos\AnimatedShorts\Overwatch Cinematic Trailer.mp4" />
+    <Content Include="Videos\AnimatedShorts\_Junkertown_ The Plan_ _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\D.Va Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Genji Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Hanzo Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Junkrat Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Lúcio Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\McCree Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Mei Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Overwatch Mercy Ability Overview %28EU%29.mp4" />
+    <Content Include="Videos\CharacterOverviews\Overwatch_ Bastion Ability Overview %28EU%29.mp4" />
+    <Content Include="Videos\CharacterOverviews\Overwatch_ Reinhardt Ability Overview %28EU%29.mp4" />
+    <Content Include="Videos\CharacterOverviews\Overwatch_ Winston Ability Overview %28EU%29.mp4" />
+    <Content Include="Videos\CharacterOverviews\Overwatch_ Zenyatta Ability Overview %28EU%29.mp4" />
+    <Content Include="Videos\CharacterOverviews\Pharah Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Reaper Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Roadhog Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Soldier_ 76 Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Symmetra Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Torbjörn Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Tracer Ability Overview  Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Widowmaker Ability Overview  Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\Zarya Ability Overview _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\[NEW HERO NOW AVAILABLE] Introducing Moira _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\[NEW HERO – NOW PLAYABLE] Introducing Orisa _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\[NEW HERO – NOW PLAYABLE] Introducing Sombra _ Overwatch.mp4" />
+    <Content Include="Videos\CharacterOverviews\[NEW HERO] Introducing Ana _ Overwatch.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Maps\HorizonLunarColony\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.3.3.2\build\Fody.targets" Condition="Exists('..\packages\Fody.3.3.2\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.3.3.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.3.3.2\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.2.6.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.2.6.0\build\PropertyChanged.Fody.props'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged2.Fody.2.5.13\build\PropertyChanged2.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged2.Fody.2.5.13\build\PropertyChanged2.Fody.props'))" />
+  </Target>
+</Project>

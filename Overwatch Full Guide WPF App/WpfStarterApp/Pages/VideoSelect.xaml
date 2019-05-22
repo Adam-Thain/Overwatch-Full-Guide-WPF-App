@@ -1,0 +1,49 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.Pages.VideoSelect"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600"
+      Title="VideoSelect">
+
+    <Grid>
+
+        <!-- Main Content Scroll Image -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+
+            <!-- Container for page content -->
+            <StackPanel VerticalAlignment="top" HorizontalAlignment="Center">
+
+                <!-- Logo (Home Button) -->
+                <Button x:Name="HomeButton" 
+                        Style="{StaticResource HomeButton}" 
+                        Tag="{DynamicResource Overwatch_Banner}"
+                        Click="Overwatch_Home_Button_Click"
+                        />
+
+                <!-- Selection Stack -->
+                <StackPanel>
+
+                    <Frame x:Name="RecallFrameHolder" Margin="0,10,0,10"  Height="450" Width="400"></Frame>
+                    <Frame x:Name="RiseShineFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="LastBastionFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="InfiltrationFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="AliveFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="DragonsFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="HeroFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="HonorGloryFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="ShootingStarFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="ReunionFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="ThePlanFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+                    <Frame x:Name="CinematicFrameHolder" Margin="0,10,0,10" Height="450" Width="400"></Frame>
+
+                </StackPanel>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+</Page>

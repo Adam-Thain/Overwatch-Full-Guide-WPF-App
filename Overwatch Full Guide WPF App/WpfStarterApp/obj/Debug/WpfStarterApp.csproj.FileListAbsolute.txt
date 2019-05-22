@@ -1,0 +1,341 @@
+D:\Test Projects\WpfStarterApp\WpfStarterApp\bin\Debug\WpfStarterApp.exe.config
+D:\Test Projects\WpfStarterApp\WpfStarterApp\bin\Debug\WpfStarterApp.exe
+D:\Test Projects\WpfStarterApp\WpfStarterApp\bin\Debug\WpfStarterApp.pdb
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\MainWindow.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Ana.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Bastion.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Brigitte.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\CharacterSelect.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\DVa.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Doomfist.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Genji.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Hanzo.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Junkrat.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Lúcio.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\McCree.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Mei.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Mercy.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Moira.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Orisa.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Pharah.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Reaper.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Reinhardt.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Roadhog.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Soldier76.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Sombra.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Symmetra.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Torbjörn.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Tracer.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Widowmaker.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Winston.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Zarya.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Zenyatta.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\App.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.cache
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.lref
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\App.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\MainWindow.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Ana.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Bastion.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Brigitte.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\CharacterSelect.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\DVa.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Doomfist.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Genji.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Hanzo.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Junkrat.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Lúcio.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\McCree.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Mei.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Mercy.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Moira.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Orisa.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Pharah.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Reaper.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Reinhardt.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Roadhog.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Soldier76.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Sombra.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Symmetra.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Torbjörn.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Tracer.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Widowmaker.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Winston.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Zarya.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Pages\Zenyatta.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Resources\Videos.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Styles\Colours.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Resources\Images.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Styles\Texts.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\Styles\Windows.baml
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.g.resources
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.Properties.Resources.resources
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.GenerateResource.cache
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.CoreCompileInputs.cache
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.exe
+D:\Test Projects\WpfStarterApp\WpfStarterApp\obj\Debug\WpfStarterApp.pdb
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe.config
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.pdb
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csprojAssemblyReference.cache
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Ana.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Bastion.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Brigitte.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\CharacterSelect.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\DVa.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Doomfist.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Genji.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Hanzo.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Junkrat.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Lúcio.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\McCree.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mei.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mercy.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Moira.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Orisa.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Pharah.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reaper.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reinhardt.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Roadhog.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Soldier76.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Sombra.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Symmetra.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Torbjörn.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Tracer.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Widowmaker.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Winston.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zarya.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zenyatta.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.cache
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.lref
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Ana.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Bastion.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Brigitte.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\CharacterSelect.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\DVa.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Doomfist.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Genji.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Hanzo.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Junkrat.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Lúcio.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\McCree.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mei.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mercy.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Moira.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Orisa.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Pharah.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reaper.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reinhardt.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Roadhog.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Soldier76.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Sombra.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Symmetra.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Torbjörn.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Tracer.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Widowmaker.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Winston.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zarya.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zenyatta.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Videos.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Colours.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Images.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Texts.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Windows.baml
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.g.resources
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.Properties.Resources.resources
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.GenerateResource.cache
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.CoreCompileInputs.cache
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.exe
+E:\Test Projects\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.pdb
+F:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe.config
+F:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe
+F:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.pdb
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_Content.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.cache
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.lref
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Videos.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Colours.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Images.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Texts.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Windows.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.g.resources
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.Properties.Resources.resources
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.GenerateResource.cache
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.CoreCompileInputs.cache
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.exe
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.pdb
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csprojAssemblyReference.cache
+G:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe.config
+G:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe
+G:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.pdb
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csprojAssemblyReference.cache
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Ana.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Bastion.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Brigitte.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\CharacterSelect.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\DVa.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Doomfist.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Genji.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Hanzo.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Junkrat.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Lúcio.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\McCree.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mei.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mercy.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Moira.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Orisa.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Pharah.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reaper.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reinhardt.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Roadhog.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Soldier76.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Sombra.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Symmetra.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Torbjörn.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Tracer.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Widowmaker.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Winston.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zarya.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zenyatta.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_Content.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.cache
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.lref
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Ana.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Bastion.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Brigitte.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\CharacterSelect.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\DVa.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Doomfist.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Genji.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Hanzo.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Junkrat.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Lúcio.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\McCree.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mei.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Mercy.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Moira.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Orisa.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Pharah.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reaper.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Reinhardt.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Roadhog.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Soldier76.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Sombra.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Symmetra.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Torbjörn.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Tracer.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Widowmaker.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Winston.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zarya.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Zenyatta.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Colours.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Images.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Texts.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Windows.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.g.resources
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.Properties.Resources.resources
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.GenerateResource.cache
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.CoreCompileInputs.cache
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.exe
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.pdb
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.baml
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.g.cs
+G:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\TextFiles.baml
+D:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe.config
+D:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.exe
+D:\WpfStarterAppV4\WpfStarterApp\bin\Debug\WpfStarterApp.pdb
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_Content.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.cache
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp_MarkupCompile.lref
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\App.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\MainWindow.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\MainMenu.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\VideoSelect.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\TextFiles.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Videos.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Colours.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Resources\Images.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Texts.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Styles\Windows.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.g.resources
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.Properties.Resources.resources
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.GenerateResource.cache
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csproj.CoreCompileInputs.cache
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.exe
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.pdb
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\ImageGalleryFrame.g.cs
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\ImageGalleryFrame.baml
+D:\WpfStarterAppV4\WpfStarterApp\obj\Debug\WpfStarterApp.csprojAssemblyReference.cache
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\ImageGalleryFrame.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.g.cs
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\ContentHolders\ImageGalleryFrame.baml
+F:\WpfStarterAppV4\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.baml

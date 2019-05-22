@@ -1,0 +1,390 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.ContentHolders.CharacterSelectFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.ContentHolders"
+      mc:Ignorable="d" 
+      d:DesignHeight="260" d:DesignWidth="400"
+      Title="CharacterSelectFrame">
+
+    <!-- Holds the character selection grid content-->
+    <Grid Margin="10">
+        
+        <!-- Selection grid border-->
+        <Border BorderBrush="Aqua" BorderThickness="2" CornerRadius="8,8,8,8">
+
+            <!-- Holds the main grid content-->
+            <Grid>
+                
+                <!-- Column Definitions (6 in total) -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- Row Definitions (5 in total) -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Grid header box -->
+                <Border Grid.Row="0" Grid.ColumnSpan="9" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                    <TextBlock Text="Overwatch Characters" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua"/>
+                </Border>
+
+                <!-- Tank Header box -->
+                <Border Grid.Row="1" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                    <TextBlock Text="Tank" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua"/>
+                </Border>
+
+                <!-- D.Va Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="1" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="DVaButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource D.VaIcon}" Height="30"/>
+                        <Label Content="D.VA" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Orisa Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="2 " 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="OrisaButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource OrisaIcon}" Height="30"/>
+                        <Label Content="Orisa" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Reinhardt Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="3" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="ReinhardtButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource ReinhardtIcon}" Height="30"/>
+                        <Label Content="Reinhardt" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Roadhog Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="4" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="RoadhogButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource RoadhogIcon}" Height="30"/>
+                        <Label Content="Roadhog" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Winston Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="5" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="WinstonButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource WinstonIcon}" Height="30"/>
+                        <Label Content="Winston" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Zarya Button -->
+                <Button Grid.Row="1" 
+                        Grid.Column="6" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="ZaryaButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource ZaryaIcon}" Height="30"/>
+                        <Label Content="Zarya" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Damage header box -->
+                <Border Grid.Row="2" Grid.RowSpan="2" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                    <TextBlock Text="Damage" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua"/>
+                </Border>
+
+                <!-- Doomfist Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="1" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="DoomfistButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource DoomfistIcon}" Height="30"/>
+                        <Label Content="Doomfist" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Genji Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="2" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="GenjiButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource GenjiIcon}" Height="30"/>
+                        <Label Content="Genji" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- McCree Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="3" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="McCreeButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource McCreeIcon}" Height="30"/>
+                        <Label Content="McCree" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Pharah Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="4" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="PharahButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource PharahIcon}" Height="30"/>
+                        <Label Content="Pharah" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Reaper Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="5" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="ReaperButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource ReaperIcon}" Height="30"/>
+                        <Label Content="Reaper" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Soldier 76 Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="6" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="Soldier_76Button_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource Soldier76Icon}" Height="30"/>
+                        <Label Content="Soldier 76" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Sombra Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="7" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="SombraButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource SombraIcon}" Height="30"/>
+                        <Label Content="Sombra" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Tracer Button -->
+                <Button Grid.Row="2" 
+                        Grid.Column="8" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="TracerButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource TracerIcon}" Height="30"/>
+                        <Label Content="Tracer" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Bastion Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="1" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="BastionButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource BastionIcon}" Height="30"/>
+                        <Label Content="Bastion" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Hanzo Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="2" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="HanzoButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource HanzoIcon}" Height="30"/>
+                        <Label Content="Hanzo" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Junkrat Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="3" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="JunkratButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource JunkratIcon}" Height="30"/>
+                        <Label Content="Junkrat" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Mei Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="4" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="MeiButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource MeiIcon}" Height="30"/>
+                        <Label Content="Mei" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Symmetra Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="5" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="SymmetraButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource SymmetraIcon}" Height="30"/>
+                        <Label Content="Symmetra" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Torbjörn Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="6" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="TorbjörnButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource TorbjörnIcon}" Height="30"/>
+                        <Label Content="Torbjörn" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Widowmaker Button -->
+                <Button Grid.Row="3" 
+                        Grid.Column="7" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="WidowmakerButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource WidowmakerIcon}" Height="30"/>
+                        <Label Content="Widowmaker" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+
+                <!-- Support header box -->
+                <Border Grid.Row="4" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                    <TextBlock Text="Support" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua"/>
+                </Border>
+
+                <!-- Ana Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="1" 
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        Click="AnaButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource AnaIcon}" Height="30"/>
+                        <Label Content="Ana" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Brigitte Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="2" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="BrigitteButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource BrigitteIcon}" Height="30"/>
+                        <Label Content="Brigitte" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Lúcio Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="3" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="LúcioButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource LúcioIcon}" Height="30"/>
+                        <Label Content="Lúcio" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Mercy Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="4"
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="MercyButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource MercyIcon}" Height="30"/>
+                        <Label Content="Mercy" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Moira Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="5" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="MoiraButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource MoiraIcon}" Height="30"/>
+                        <Label Content="Moira" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+                <!-- Zenyatta Button -->
+                <Button Grid.Row="4" 
+                        Grid.Column="6" 
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Click="ZenyattaButton_Click">
+                    <StackPanel>
+                        <Image Source="{DynamicResource ZenyattaIcon}" Height="30"/>
+                        <Label Content="Zenyatta" HorizontalAlignment="Center" Foreground="Aqua" FontSize="6"/>
+                    </StackPanel>
+                </Button>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

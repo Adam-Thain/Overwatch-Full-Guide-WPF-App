@@ -1,0 +1,149 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Resources">
+
+    <!-- Overwatch banner -->
+    <BitmapImage x:Key="Overwatch_Banner" UriSource="/Images/Logo/Overwatch-Banner.png"/>
+    
+    <!-- Overwatch Icon -->
+    <BitmapImage x:Key="Overwatch_Icon" UriSource="/Images/Logo/Overwatch-Logo.png"/>
+    
+    <!-- All Media Player Icons -->
+    <BitmapImage x:Key="PlayIConWithCircle" UriSource="/Images/Misc/play-button-circled.png"/>
+    <BitmapImage x:Key="PlayIConWithoutCircle" UriSource="/Images/Misc/play.png"/>
+    <BitmapImage x:Key="VideoPlayICon" UriSource="/Images/Misc/video-play-3-512.png"/>
+    
+    <!-- ALL inner Button Icons -->
+    <BitmapImage x:Key="ArrowKey" UriSource="/Images/Misc/Media_player_icons-12-512.png"/>
+
+    <!-- All Character Pixel Sprays -->
+    <BitmapImage x:Key="DoomFist" UriSource="/Images/Sprites/Spray_DoomFist_Pixel.png"/>
+    <BitmapImage x:Key="Genji" UriSource="/Images/Sprites/Spray_Genji_Pixel.png"/>
+    <BitmapImage x:Key="McCree" UriSource="/Images/Sprites/Spray_McCree_Pixel.png"/>
+    <BitmapImage x:Key="Pharah" UriSource="/Images/Sprites/Spray_Pharah_Pixel.png"/>
+    <BitmapImage x:Key="Reaper" UriSource="/Images/Sprites/Spray_Reaper_Pixel.png"/>
+    <BitmapImage x:Key="Soldier76" UriSource="/Images/Sprites/Spray_Soldier76_Pixel.png"/>
+    <BitmapImage x:Key="Sombra" UriSource="/Images/Sprites/Spray_Sombra_Pixel.png"/>
+    <BitmapImage x:Key="Tracer" UriSource="/Images/Sprites/Spray_Tracer_Pixel.png"/>
+    <BitmapImage x:Key="Bastion" UriSource="/Images/Sprites/Spray_Bastion_Pixel.png"/>
+    <BitmapImage x:Key="Hanzo" UriSource="/Images/Sprites/Spray_Hanzo_Pixel.png"/>
+    <BitmapImage x:Key="Junkrat" UriSource="/Images/Sprites/Spray_Junkrat_Pixel.png"/>
+    <BitmapImage x:Key="Mei" UriSource="/Images/Sprites/Spray_Mei_Pixel.png"/>
+    <BitmapImage x:Key="Torbjörn" UriSource="/Images/Sprites/Spray_Torbjörn_Pixel.png"/>
+    <BitmapImage x:Key="Widowmaker" UriSource="/Images/Sprites/Spray_Widowmaker_Pixel.png"/>
+    <BitmapImage x:Key="D.Va" UriSource="/Images/Sprites/Spray_DVa_Pixel.png"/>
+    <BitmapImage x:Key="Orisa" UriSource="/Images/Sprites/Spray_Orisa_Pixel.png"/>
+    <BitmapImage x:Key="Reinhardt" UriSource="/Images/Sprites/Spray_Reinhardt_Pixel.png"/>
+    <BitmapImage x:Key="Roadhog" UriSource="/Images/Sprites/Spray_Roadhog_Pixel.png"/>
+    <BitmapImage x:Key="Winston" UriSource="/Images/Sprites/Spray_Winston_Pixel.png"/>
+    <BitmapImage x:Key="Zarya" UriSource="/Images/Sprites/Spray_Zarya_Pixel.png"/>
+    <BitmapImage x:Key="Ana" UriSource="/Images/Sprites/Spray_Ana_Pixel.png"/>
+    <BitmapImage x:Key="Brigitte" UriSource="/Images/Sprites/Spray_Brigitte_Pixel.png"/>
+    <BitmapImage x:Key="Lúcio" UriSource="/Images/Sprites/Spray_Lúcio_Pixel.png"/>
+    <BitmapImage x:Key="Mercy" UriSource="/Images/Sprites/Spray_Mercy_Pixel.png"/>
+    <BitmapImage x:Key="Moira" UriSource="/Images/Sprites/Spray_Moira_Pixel.png"/>
+    <BitmapImage x:Key="Symmetra" UriSource="/Images/Sprites/Spray_Symmetra_Pixel.png"/>
+    <BitmapImage x:Key="Zenyatta" UriSource="/Images/Sprites/Spray_Zenyatta_Pixel.png"/>
+
+    <!-- All Character Cute Sprays -->
+    <BitmapImage x:Key="DoomFistCute" UriSource="/Images/Cutes/Spray_Doomfist_Cute.png"/>
+    <BitmapImage x:Key="GenjiCute" UriSource="/Images/Cutes/Spray_Genji_Cute.png"/>
+    <BitmapImage x:Key="McCreeCute" UriSource="/Images/Cutes/Spray_McCree_Cute.png"/>
+    <BitmapImage x:Key="PharahCute" UriSource="/Images/Cutes/Spray_Pharah_Cute.png"/>
+    <BitmapImage x:Key="ReaperCute" UriSource="/Images/Cutes/Spray_Reaper_Cute.png"/>
+    <BitmapImage x:Key="Soldier76Cute" UriSource="/Images/Cutes/Spray_Soldier76_Cute.png"/>
+    <BitmapImage x:Key="SombraCute" UriSource="/Images/Cutes/Spray_Sombra_Cute.png"/>
+    <BitmapImage x:Key="TracerCute" UriSource="/Images/Cutes/Spray_Tracer_Cute.png"/>
+    <BitmapImage x:Key="BastionCute" UriSource="/Images/Cutes/Spray_Bastion_Cute.png"/>
+    <BitmapImage x:Key="HanzoCute" UriSource="/Images/Cutes/Spray_Hanzo_Cute.png"/>
+    <BitmapImage x:Key="JunkratCute" UriSource="/Images/Cutes/Spray_Junkrat_Cute.png"/>
+    <BitmapImage x:Key="MeiCute" UriSource="/Images/Cutes/Spray_Mei_Cute.png"/>
+    <BitmapImage x:Key="TorbjörnCute" UriSource="/Images/Cutes/Spray_Torbjörn_Cute.png"/>
+    <BitmapImage x:Key="WidowmakerCute" UriSource="/Images/Cutes/Spray_Widowmaker_Cute.png"/>
+    <BitmapImage x:Key="D.VaCute" UriSource="/Images/Cutes/Spray_DVa_Cute.png"/>
+    <BitmapImage x:Key="OrisaCute" UriSource="/Images/Cutes/Spray_Orisa_Cute.png"/>
+    <BitmapImage x:Key="ReinhardtCute" UriSource="/Images/Cutes/Spray_Reinhardt_Cute.png"/>
+    <BitmapImage x:Key="RoadhogCute" UriSource="/Images/Cutes/Spray_Roadhog_Cute.png"/>
+    <BitmapImage x:Key="WinstonCute" UriSource="/Images/Cutes/Spray_Winston_Cute.png"/>
+    <BitmapImage x:Key="ZaryaCute" UriSource="/Images/Cutes/Spray_Zarya_Cute.png"/>
+    <BitmapImage x:Key="AnaCute" UriSource="/Images/Cutes/Spray_Ana_Cute.png"/>
+    <BitmapImage x:Key="BrigitteCute" UriSource="/Images/Cutes/Spray_Brigitte_Cute.png"/>
+    <BitmapImage x:Key="LúcioCute" UriSource="/Images/Cutes/Spray_Lúcio_Cute.png"/>
+    <BitmapImage x:Key="MercyCute" UriSource="/Images/Cutes/Spray_Mercy_Cute.png"/>
+    <BitmapImage x:Key="MoiraCute" UriSource="/Images/Cutes/Spray_Moira_Cute.png"/>
+    <BitmapImage x:Key="SymmetraCute" UriSource="/Images/Cutes/Spray_Symmetra_Cute.png"/>
+    <BitmapImage x:Key="ZenyattaCute" UriSource="/Images/Cutes/Spray_Zenyatta_Cute.png"/>
+
+    <!-- All Character portrait artworks -->
+    <BitmapImage x:Key="DoomFistPortrait" UriSource="/Images/Character Artworks/Doomfist-portrait.png"/>
+    <BitmapImage x:Key="GenjiPortrait" UriSource="/Images/Character Artworks/Genji-portrait.png"/>
+    <BitmapImage x:Key="McCreePortrait" UriSource="/Images/Character Artworks/Mccree-portrait.png"/>
+    <BitmapImage x:Key="PharahPortrait" UriSource="/Images/Character Artworks/Pharah-portrait.png"/>
+    <BitmapImage x:Key="ReaperPortrait" UriSource="/Images/Character Artworks/Reaper-portrait.png"/>
+    <BitmapImage x:Key="Soldier76Portrait" UriSource="/Images/Character Artworks/Soldier76-portrait.png"/>
+    <BitmapImage x:Key="SombraPortrait" UriSource="/Images/Character Artworks/Sombra-portrait.png"/>
+    <BitmapImage x:Key="TracerPortrait" UriSource="/Images/Character Artworks/Tracer-portrait.png"/>
+    <BitmapImage x:Key="BastionPortrait" UriSource="/Images/Character Artworks/Bastion-portrait.png"/>
+    <BitmapImage x:Key="HanzoPortrait" UriSource="/Images/Character Artworks/Hanzo-portrait.png"/>
+    <BitmapImage x:Key="JunkratPortrait" UriSource="/Images/Character Artworks/Junkrat-Portrait.png"/>
+    <BitmapImage x:Key="MeiPortrait" UriSource="/Images/Character Artworks/Mei-portrait.png"/>
+    <BitmapImage x:Key="TorbjörnPortrait" UriSource="/Images/Character Artworks/Torbjörn-portrait.png"/>
+    <BitmapImage x:Key="WidowmakerPortrait" UriSource="/Images/Character Artworks/Widowmaker-portrait.png"/>
+    <BitmapImage x:Key="D.VaPortrait" UriSource="/Images/Character Artworks/DVa-portrait.png"/>
+    <BitmapImage x:Key="OrisaPortrait" UriSource="/Images/Character Artworks/Orisa-portrait.png"/>
+    <BitmapImage x:Key="ReinhardtPortrait" UriSource="/Images/Character Artworks/Reinhardt-portrait.png"/>
+    <BitmapImage x:Key="RoadhogPortrait" UriSource="/Images/Character Artworks/Roadhog-Portrait.png"/>
+    <BitmapImage x:Key="WinstonPortrait" UriSource="/Images/Character Artworks/Winston-portrait.png"/>
+    <BitmapImage x:Key="ZaryaPortrait" UriSource="/Images/Character Artworks/Zarya-portrait.png"/>
+    <BitmapImage x:Key="AnaPortrait" UriSource="/Images/Character Artworks/Ana-portrait.png"/>
+    <BitmapImage x:Key="BrigittePortrait" UriSource="/Images/Character Artworks/Brigitte_Concept.png"/>
+    <BitmapImage x:Key="LúcioPortrait" UriSource="/Images/Character Artworks/Lúcio-portrait.png"/>
+    <BitmapImage x:Key="MercyPortrait" UriSource="/Images/Character Artworks/Mercy-portrait.png"/>
+    <BitmapImage x:Key="MoiraPortrait" UriSource="/Images/Character Artworks/Moira.png"/>
+    <BitmapImage x:Key="SymmetraPortrait" UriSource="/Images/Character Artworks/Symmetra-portrait.png"/>
+    <BitmapImage x:Key="ZenyattaPortrait" UriSource="/Images/Character Artworks/Zenyatta-portrait.png"/>
+
+    <!-- All Character Icons -->
+    <BitmapImage x:Key="DoomfistIcon" UriSource="/Images/Character Icons/Icon-Doomfist.png"/>
+    <BitmapImage x:Key="GenjiIcon" UriSource="/Images/Character Icons/Icon-Genji.png"/>
+    <BitmapImage x:Key="McCreeIcon" UriSource="/Images/Character Icons/Icon-McCree.png"/>
+    <BitmapImage x:Key="PharahIcon" UriSource="/Images/Character Icons/Icon-Pharah.png"/>
+    <BitmapImage x:Key="ReaperIcon" UriSource="/Images/Character Icons/Icon-Reaper.png"/>
+    <BitmapImage x:Key="Soldier76Icon" UriSource="/Images/Character Icons/Icon-Soldier_76.png"/>
+    <BitmapImage x:Key="SombraIcon" UriSource="/Images/Character Icons/Icon-Sombra.png"/>
+    <BitmapImage x:Key="TracerIcon" UriSource="/Images/Character Icons/Icon-Tracer.png"/>
+    <BitmapImage x:Key="BastionIcon" UriSource="/Images/Character Icons/Icon-Bastion.png"/>
+    <BitmapImage x:Key="HanzoIcon" UriSource="/Images/Character Icons/Icon-Hanzo.png"/>
+    <BitmapImage x:Key="JunkratIcon" UriSource="/Images/Character Icons/Icon-Junkrat.png"/>
+    <BitmapImage x:Key="MeiIcon" UriSource="/Images/Character Icons/Icon-Mei.png"/>
+    <BitmapImage x:Key="TorbjörnIcon" UriSource="/Images/Character Icons/Icon-Torbjörn.png"/>
+    <BitmapImage x:Key="WidowmakerIcon" UriSource="/Images/Character Icons/Icon-Widowmaker.png"/>
+    <BitmapImage x:Key="D.VaIcon" UriSource="/Images/Character Icons/20181018235404!Icon-D.Va.png"/>
+    <BitmapImage x:Key="OrisaIcon" UriSource="/Images/Character Icons/Icon-Orisa.png"/>
+    <BitmapImage x:Key="ReinhardtIcon" UriSource="/Images/Character Icons/Icon-Reinhardt.png"/>
+    <BitmapImage x:Key="RoadhogIcon" UriSource="/Images/Character Icons/Icon-Roadhog.png"/>
+    <BitmapImage x:Key="WinstonIcon" UriSource="/Images/Character Icons/Icon-Winston.png"/>
+    <BitmapImage x:Key="ZaryaIcon" UriSource="/Images/Character Icons/Icon-Zarya.png"/>
+    <BitmapImage x:Key="AnaIcon" UriSource="/Images/Character Icons/Icon-Ana.png"/>
+    <BitmapImage x:Key="BrigitteIcon" UriSource="/Images/Character Icons/Icon-Brigitte.png"/>
+    <BitmapImage x:Key="LúcioIcon" UriSource="/Images/Character Icons/Icon-Lúcio.png"/>
+    <BitmapImage x:Key="MercyIcon" UriSource="/Images/Character Icons/Icon-Mercy.png"/>
+    <BitmapImage x:Key="MoiraIcon" UriSource="/Images/Character Icons/Icon-Moira.png"/>
+    <BitmapImage x:Key="SymmetraIcon" UriSource="/Images/Character Icons/Icon-Symmetra.png"/>
+    <BitmapImage x:Key="ZenyattaIcon" UriSource="/Images/Character Icons/Icon-Zenyatta.png"/>
+
+    <!-- All Animated short Thumbnails -->
+    <BitmapImage x:Key="Recall_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Recall_Thumbnail.png"/>
+    <BitmapImage x:Key="Rise_And_Shine_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Rise_and_Shine_thumbnail.png"/>
+    <BitmapImage x:Key="Last_Bastion_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-The_Last_Bastion_thumbnail.png"/>
+    <BitmapImage x:Key="Infiltration_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Infiltration_Thumbnail.png"/>
+    <BitmapImage x:Key="Alive_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Alive_Thumbnail.png"/>
+    <BitmapImage x:Key="Dragons_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Dragons_Thumbnail.png"/>
+    <BitmapImage x:Key="Hero_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Hero_Thumbnail.png"/>
+    <BitmapImage x:Key="Honor_and_Glory_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Honor_and_Glory_Thumbnail.png"/>
+    <BitmapImage x:Key="Shooting_Star_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Shooting_Star_Thumbnail.png"/>
+    <BitmapImage x:Key="Reunion_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Reunion_Thumbnail.png"/>
+    <BitmapImage x:Key="The_Plan_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-The_Plan_Thumbnail.png"/>
+    <BitmapImage x:Key="Cinematic_Trailer_Thumbnail" UriSource="/Images/Video PlaceHolders/1200px-Cinematic_Trailer_Thumbnail.png"/>
+
+</ResourceDictionary>

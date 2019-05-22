@@ -1,0 +1,20 @@
+﻿WpfStarterApp
+
+
+winexe
+C#
+.cs
+C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\
+WpfStarterApp
+none
+false
+DEBUG;TRACE
+C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\App.xaml
+20-496163539
+37-551745456
+27-1613924616
+15342094566
+ContentHolders\CharacterSelectFrame.xaml;ContentHolders\CharacterStatsBox.xaml;ContentHolders\ImageGalleryFrame.xaml;ContentHolders\MapStatsBox.xaml;ContentHolders\VideoFrame.xaml;MainWindow.xaml;Pages\Characters\CharacterInfoPage.xaml;Pages\Characters\CharacterSelect.xaml;Pages\MainMenu.xaml;Pages\Maps\MapInfoPage.xaml;Pages\Maps\MapSelect.xaml;Pages\VideoSelect.xaml;Resources\TextFiles.xaml;Resources\Videos.xaml;Styles\Buttons.xaml;Styles\Colours.xaml;Styles\Fonts.xaml;Resources\Images.xaml;Styles\Texts.xaml;Styles\Windows.xaml;
+
+True
+

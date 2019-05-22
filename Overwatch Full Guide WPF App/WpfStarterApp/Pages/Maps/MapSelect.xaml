@@ -1,0 +1,210 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.Pages.MapSelect"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600"
+      
+      Title="MapSelect">
+
+    <Border>
+        <Grid>
+
+            <!-- Main Content Scroll Image -->
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+
+                <!-- Container for page content -->
+                <StackPanel VerticalAlignment="top" HorizontalAlignment="Center">
+
+                    <!-- Logo (Home Button) -->
+                    <Button x:Name="HomeButton" 
+                        Style="{StaticResource HomeButton}" 
+                        Tag="{DynamicResource Overwatch_Banner}"
+                        Click="Overwatch_Home_Button_Click"
+                        />
+
+                    <!-- Selection Stack -->
+                    <StackPanel>
+
+                        <!-- Hanamura Page button -->
+                        <Button x:Name="Hanamura" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickHanamura"
+                            Height="30"
+                            Width="200"
+                            Content="Hanamura"
+                        />
+
+                        <!-- Horizon Lunar Colony button -->
+                        <Button x:Name="Horizon_Lunar_Colony" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickHorizonLunarColony"
+                            Height="30"
+                            Width="200"
+                            Content="Horizon Lunar Colony"
+                        />
+
+                        <!-- Temple Of Anubis Page button -->
+                        <Button x:Name="Temple_Of_Anubis" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickTempleOfAnubis"
+                            Height="30"
+                            Width="200"
+                            Content="Temple Of Anubis" 
+                        />
+
+                        <!-- Volskaya Industries Page button -->
+                        <Button x:Name="Volskaya_Industries" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickVolskayaIndustries"
+                            Height="30"
+                            Width="200"
+                            Content="Volskaya Industries"
+                        />
+
+                        <!-- Dorado Page button -->
+                        <Button x:Name="Dorado" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickDorado"
+                            Height="30"
+                            Width="200"
+                            Content="Dorado"
+                        />
+
+                        <!-- Junkertown Page button -->
+                        <Button x:Name="Junkertown" 
+                            Style="{StaticResource BaseButton}"
+                            Click="BtnClickJunkertown"
+                            Height="30"
+                            Width="200"
+                            Content="Junkertown"
+                        />
+
+                        <!-- Rialto Page button -->
+                        <Button x:Name="Rialto" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickRialto"
+                            Height="30"
+                            Width="200"
+                            Content="Rialto"
+                        />
+
+                        <!-- Route 66 Page button -->
+                        <Button x:Name="route_66" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickRoute66"
+                            Height="30"
+                            Width="200"
+                            Content="Route 66"
+                        />
+
+                        <!-- Watchpoint: Gibraltar Page button -->
+                        <Button x:Name="Watchpoint_Gibraltar" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickWatchpointGibraltar"
+                            Height="30"
+                            Width="200"
+                            Content="Watchpoint: Gibraltar"
+                        />
+
+                        <!-- Blizzard World Page button -->
+                        <Button x:Name="Blizzard_World" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickBlizzardWorld"
+                            Height="30"
+                            Width="200"
+                            Content="Blizzard World"
+                        />
+
+                        <!-- Eichenwalde Page button -->
+                        <Button x:Name="Eichenwalde" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickEichenwalde"
+                            Height="30"
+                            Width="200"
+                            Content="Eichenwalde"
+                        />
+
+                        <!-- Hollywood Page button -->
+                        <Button x:Name="Hollywood" 
+                            Style="{StaticResource BaseButton}"
+                            Click="BtnClickHollywood"
+                            Height="30"
+                            Width="200"
+                            Content="Hollywood"
+                        />
+
+                        <!-- Kings Row Page button -->
+                        <Button x:Name="Kings_Row" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickKingsRow"
+                            Height="30"
+                            Width="200"
+                            Content="Kings Row "
+                        />
+
+                        <!-- Numbani Page button -->
+                        <Button x:Name="Numbani" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickNumbani"
+                            Height="30"
+                            Width="200"
+                            Content="Numbani"
+                        />
+
+                        <!-- Busan Page button -->
+                        <Button x:Name="Busan" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickBusan"
+                            Height="30"
+                            Width="200"
+                            Content="Busan"
+                        />
+
+                        <!-- Ilios Page button -->
+                        <Button x:Name="Ilios" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickIlios"
+                            Height="30"
+                            Width="200"
+                            Content="Ilios"
+                        />
+
+                        <!-- Lijiang Tower Page button -->
+                        <Button x:Name="Lijiang_Tower" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickLijiangTower"
+                            Height="30"
+                            Width="200"
+                            Content="Lijiang Tower"
+                        />
+
+                        <!-- Nepal Page button -->
+                        <Button x:Name="Nepal" 
+                            Style="{StaticResource BaseButton}" 
+                            Click="BtnClickNepal"
+                            Height="30"
+                            Width="200"
+                            Content="Nepal"
+                        />
+
+                        <!-- Oasis Page button -->
+                        <Button x:Name="Oasis" 
+                            Style="{StaticResource BaseButton}"
+                            Click="BtnClickOasis"
+                            Height="30"
+                            Width="200"
+                            Content="Oasis"
+                        />
+
+                    </StackPanel>
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Grid>
+    </Border>
+</Page>

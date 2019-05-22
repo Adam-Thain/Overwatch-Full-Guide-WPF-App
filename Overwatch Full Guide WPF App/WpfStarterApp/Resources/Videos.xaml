@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Resources">
+
+    <!-- Character Overviews -->
+    <MediaElement x:Key="DoomfistOverview"/>
+    <MediaElement x:Key="GenjiOverview" Source="/Videos/CharacterOverviews/Genji Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="McCreeOverview" Source="/Videos/CharacterOverviews/McCree Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="PharahOverview" Source="/Videos/CharacterOverviews/Pharah Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="ReaperOverview" Source="/Videos/CharacterOverviews/Reaper Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="Soldier76Overview" Source="/Videos/CharacterOverviews/Soldier_ 76 Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="SombraOverview" Source="/Videos/CharacterOverviews/[NEW HERO – NOW PLAYABLE] Introducing Sombra _ Overwatch.mp4"/>
+    <MediaElement x:Key="TracerOverview" Source="/Videos/CharacterOverviews/Tracer Ability Overview  Overwatch.mp4"/>
+    <MediaElement x:Key="BastionOverview" Source="/Videos/CharacterOverview/Overwatch_ Bastion Ability Overview (EU).mp4"/>
+    <MediaElement x:Key="HanzoOverview" Source="/Videos/CharacterOverview/Hanzo Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="JunkratOverview" Source="/Videos/CharacterOverview/Junkrat Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="MeiOverview" Source="/Videos/CharacterOverview/Mei Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="TorbjörnOverview" Source="/Videos/CharacterOverview/Torbjörn Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="WidowmakerOverview" Source="/Videos/CharacterOverview/Widowmaker Ability Overview  Overwatch.mp4"/>
+    <MediaElement x:Key="D.VaOverview" Source="/Videos/CharacterOverview/D.Va Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="OrisaOverview" Source="/Videos/CharacterOverview/[NEW HERO – NOW PLAYABLE] Introducing Orisa _ Overwatch.mp4"/>
+    <MediaElement x:Key="ReinhardtOverview" Source="/Videos/CharacterOverview/Overwatch_ Reinhardt Ability Overview (EU).mp4"/>
+    <MediaElement x:Key="RoadhogOverview" Source="/Videos/CharacterOverview/Roadhog Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="WinstonOverview" Source="/Videos/CharacterOverview/Overwatch_ Winston Ability Overview (EU).mp4"/>
+    <MediaElement x:Key="ZaryaOverview" Source="/Videos/CharacterOverview/Zarya Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="AnaOverview" Source="/Videos/CharacterOverview/[NEW HERO] Introducing Ana _ Overwatch.mp4"/>
+    <MediaElement x:Key="BrigitteOverview" Source="/Videos/CharacterOverview/"/>
+    <MediaElement x:Key="LúcioOverview" Source="/Videos/CharacterOverview/Lúcio Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="MercyOverview" Source="/Videos/CharacterOverview/Overwatch Mercy Ability Overview (EU).mp4"/>
+    <MediaElement x:Key="MoiraOverview" Source="/Videos/CharacterOverview/[NEW HERO NOW AVAILABLE] Introducing Moira _ Overwatch.mp4"/>
+    <MediaElement x:Key="SymmetraOverview" Source="/Videos/CharacterOverview/Symmetra Ability Overview _ Overwatch.mp4"/>
+    <MediaElement x:Key="ZenyattaOverview" Source="/Videos/CharacterOverview/Overwatch_ Zenyatta Ability Overview (EU).mp4"/>
+
+
+    <!-- Animated shorts -->
+    <MediaElement x:Key="Recall" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ _Recall_.mp4"/>
+    <MediaElement x:Key="RiseAndShine" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ _Rise and Shine_.mp4"/>
+    <MediaElement x:Key="TheLastBastion" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ _The Last Bastion_.mp4"/>
+    <MediaElement x:Key="Infiltration" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ _Infiltration_.mp4"/>
+    <MediaElement x:Key="Alive" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Alive.mp4"/>
+    <MediaElement x:Key="Dragons" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Dragons.mp4"/>
+    <MediaElement x:Key="Hero" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Hero.mp4"/>
+    <MediaElement x:Key="HonorAndGlory" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Honor and Glory.mp4"/>
+    <MediaElement x:Key="ShootingStar" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Shooting Star.mp4"/>
+    <MediaElement x:Key="Reunion" Source="/Videos/AnimatedShorts/Overwatch Animated Short _ Reunion.mp4"/>
+    <MediaElement x:Key="ThePlan" Source="/Videos/AnimatedShorts/_Junkertown_ The Plan_ _ Overwatch.mp4"/>
+    <MediaElement x:Key="CinematicTrailer" Source="/Videos/AnimatedShorts/Overwatch Cinematic Trailer.mp4"/>
+
+</ResourceDictionary>

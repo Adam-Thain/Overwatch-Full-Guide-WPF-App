@@ -1,0 +1,75 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.ContentHolders.MapStatsBox"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.ContentHolders"
+      mc:Ignorable="d" 
+      d:DesignHeight="250" d:DesignWidth="200"
+      Title="MapStatsBox">
+
+    <!-- Holds the character selection grid content-->
+    <Grid Margin="10,0,10,10">
+
+        <!-- Selection grid border-->
+        <Border BorderBrush="Aqua" BorderThickness="2" CornerRadius="8,8,8,8">
+
+            <!-- Holds the main grid content-->
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Margin="0,0,0,10" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                    <TextBlock Text="{Binding Path=Name}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+                </Border>
+
+                <Border Grid.Row="1" BorderBrush="Aqua" BorderThickness="2" CornerRadius="8,8,8,8">
+                    <Grid>
+                        <Image Source="{Binding PortraitImage}" Height="120" Width="140"/>
+                    </Grid>
+                </Border>
+
+                <!-- Information Grid -->
+                <Grid Grid.Row="2" Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Row 1 -->
+                    <Border Grid.Row="0" Grid.Column="0" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                        <TextBlock Text="Type" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+                    </Border>
+
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=Type}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+
+                    <!-- Row 2 -->
+                    <Border Grid.Row="1" Grid.Column="0" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                        <TextBlock Text="Location" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+                    </Border>
+
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Location}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+
+                    <!-- Row 3 -->
+                    <Border Grid.Row="2" Grid.Column="0" Margin="2" BorderThickness="1" Background="#FF1C5151" CornerRadius="6">
+                        <TextBlock Text="Terrain" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+                    </Border>
+
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Terrain}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Aqua" FontSize="10"/>
+
+                </Grid>
+
+            </Grid>
+
+        </Border>
+
+    </Grid>
+</Page>

@@ -1,0 +1,91 @@
+﻿<Page x:Class="Overwatch_Full_Guide_WPF_App.Pages.CharacterSelect"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Overwatch_Full_Guide_WPF_App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600"
+      Title="CharacterSelect">
+
+    <Grid>
+
+        <!-- Main Content Scroll Image -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+
+            <!-- Container for page content -->
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+                
+                <!-- Logo (Home Button) -->
+                <Button x:Name="HomeButton" 
+                        Style="{StaticResource HomeButton}" 
+                        Tag="{DynamicResource Overwatch_Banner}"
+                        Click="Overwatch_Home_Button_Click"
+                        />
+
+                <!-- Selection Grid -->
+                <Grid>
+
+                    <!-- Column Definitions (5 in total) -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Row Definitions (6 in total) -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Grid Row 1 -->
+                    <Button x:Name="Doomfist" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource DoomFist}" Content="Doomfist" Grid.Column="0" Grid.Row="0" Click="BtnClickDoomfist"/>
+                    <Button x:Name="Genji" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Genji}" Content="Genji" Grid.Column="1" Grid.Row="0" Click="BtnClickGenji" />
+                    <Button x:Name="McCree" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource McCree}" Content="McCree" Grid.Column="2" Grid.Row="0" Click="BtnClickMcCree" />
+                    <Button x:Name="Pharah" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Pharah}" Content="Pharah" Grid.Column="3" Grid.Row="0" Click="BtnClickPharah" />
+                    <Button x:Name="Reaper" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Reaper}" Content="Reaper" Grid.Column="4" Grid.Row="0" Click="BtnClickReaper" />
+
+                    <!-- Grid Row 2 -->
+                    <Button x:Name="Soldier76" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Soldier76}" Content="Soldier76" Grid.Column="0" Grid.Row="1" Click="BtnClickSoldier76" />
+                    <Button x:Name="Sombra" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Sombra}" Content="Sombra" Grid.Column="1" Grid.Row="1" Click="BtnClickSombra" />
+                    <Button x:Name="Tracer" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Tracer}" Content="Tracer" Grid.Column="2" Grid.Row="1" Click="BtnClickTracer" />
+                    <Button x:Name="Bastion" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Bastion}" Content="Bastion" Grid.Column="3" Grid.Row="1" Click="BtnClickBastion" />
+                    <Button x:Name="Hanzo" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Hanzo}" Content="Hanzo" Grid.Column="4" Grid.Row="1" Click="BtnClickHanzo" />
+
+                    <!-- Grid Row 3 -->
+                    <Button x:Name="Junkrat" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Junkrat}" Content="Junkrat" Grid.Column="0" Grid.Row="2" Click="BtnClickJunkrat" />
+                    <Button x:Name="Mei" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Mei}" Content="Mei" Grid.Column="1" Grid.Row="2" Click="BtnClickMei" />
+                    <Button x:Name="Torbjörn" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Torbjörn}" Content="Torbjörn" Grid.Column="2" Grid.Row="2" Click="BtnClickTorbjörn" />
+                    <Button x:Name="Widowmaker" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Widowmaker}" Content="Widowmaker" Grid.Column="3" Grid.Row="2" Click="BtnClickWidowmaker" />
+                    <Button x:Name="D_Va" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource D.Va}" Content="DVa" Grid.Column="4" Grid.Row="2" Click="BtnClickDVa" />
+
+                    <!-- Grid Row 4 -->
+                    <Button x:Name="Orisa" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Orisa}" Content="Orisa" Grid.Column="0" Grid.Row="3" Click="BtnClickOrisa" />
+                    <Button x:Name="Reinhardt" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Reinhardt}" Content="Reinhardt" Grid.Column="1" Grid.Row="3" Click="BtnClickReinhardt" />
+                    <Button x:Name="Roadhog" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Roadhog}" Content="Roadhog" Grid.Column="2" Grid.Row="3" Click="BtnClickRoadhog" />
+                    <Button x:Name="Winston" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Winston}" Content="Winston" Grid.Column="3" Grid.Row="3" Click="BtnClickWinston" />
+                    <Button x:Name="Zarya" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Zarya}" Content="Zarya" Grid.Column="4" Grid.Row="3" Click="BtnClickZarya" />
+
+                    <!-- Grid Row 5 -->
+                    <Button x:Name="Ana" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Ana}" Content="Ana" Grid.Column="0" Grid.Row="4" Click="BtnClickAna" />
+                    <Button x:Name="Brigitte" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Brigitte}" Content="Brigitte" Grid.Column="1" Grid.Row="4" Click="BtnClickBrigitte" />
+                    <Button x:Name="Lucio" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Lúcio}" Content="Lucio" Grid.Column="2" Grid.Row="4" Click="BtnClickLucio" />
+                    <Button x:Name="Mercy" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Mercy}" Content="Mercy" Grid.Column="3" Grid.Row="4" Click="BtnClickMercy" />
+                    <Button x:Name="Moira" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Moira}" Content="Moira" Grid.Column="4" Grid.Row="4" Click="BtnClickMoira" />
+
+                    <!-- Grid Row 6 -->
+                    <Button x:Name="Symmetra" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Symmetra}" Content="Symmetra" Grid.Column="1" Grid.Row="5" Click="BtnClickSymmetra" />
+                    <Button x:Name="Zenyatta" Style="{StaticResource BaseCharacterSelectButton}" Tag="{DynamicResource Zenyatta}" Content="Zenyatta" Grid.Column="3" Grid.Row="5" Click="BtnClickZenyatta" />
+
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
