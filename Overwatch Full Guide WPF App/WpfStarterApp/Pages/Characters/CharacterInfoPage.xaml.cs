@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,7 +28,7 @@ namespace Overwatch_Full_Guide_WPF_App.Pages.Characters
         public CharacterInfoPage(string Character)
         {
             // Read all lines from the txt file and store each line as a string in a list 
-            string[] lines = File.ReadAllLines(@"F:\WpfStarterAppV4\WpfStarterApp\TextFiles\CharacterInfos\" + Character + "Info.txt");
+            string[] lines = File.ReadAllLines(System.IO.Path.GetFullPath(@"..\..\TextFiles\CharacterInfos\") + Character + "Info.txt");
             
             // List to store all paragraphs
             List<Paragraph> Paragraphs = new List<Paragraph>();

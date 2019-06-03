@@ -44,163 +44,163 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
             switch (Character)
             {
                 case ("Genji"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\\WpfStarterApp\\Videos\\CharacterOverviews\\Genji Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Genji Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("McCree"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\McCree Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "McCree Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Pharah"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Pharah Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Pharah Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Reaper"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Reaper Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Reaper Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Soldier76"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Soldier_ 76 Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Soldier_ 76 Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Sombra"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\[NEW HERO – NOW PLAYABLE] Introducing Sombra _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "[NEW HERO – NOW PLAYABLE] Introducing Sombra _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Tracer"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Tracer Ability Overview  Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Tracer Ability Overview  Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Bastion"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Overwatch_ Bastion Ability Overview (EU).mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Overwatch_ Bastion Ability Overview (EU).mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Hanzo"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Hanzo Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Hanzo Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Junkrat"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Junkrat Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Junkrat Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Mei"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Mei Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Mei Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Torbjörn"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Torbjörn Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Torbjörn Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Widowmaker"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Widowmaker Ability Overview  Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Widowmaker Ability Overview  Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("DVa"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\D.Va Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "D.Va Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Orisa"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\[NEW HERO – NOW PLAYABLE] Introducing Orisa _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "[NEW HERO – NOW PLAYABLE] Introducing Orisa _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Reinhardt"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Overwatch_ Reinhardt Ability Overview (EU).mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Overwatch_ Reinhardt Ability Overview (EU).mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Roadhog"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Roadhog Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Roadhog Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Winston"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Overwatch_ Winston Ability Overview (EU).mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Overwatch_ Winston Ability Overview (EU).mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Zarya"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Zarya Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Zarya Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Ana"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\[NEW HERO] Introducing Ana _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "[NEW HERO] Introducing Ana _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Lúcio"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Lúcio Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Lúcio Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Mercy"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Overwatch Mercy Ability Overview (EU).mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Overwatch Mercy Ability Overview (EU).mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Moira"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\[NEW HERO NOW AVAILABLE] Introducing Moira _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "[NEW HERO NOW AVAILABLE] Introducing Moira _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Symmetra"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Symmetra Ability Overview _ Overwatch.mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Symmetra Ability Overview _ Overwatch.mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Zenyatta"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\CharacterOverviews\Overwatch_ Zenyatta Ability Overview (EU).mp4");
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\CharacterOverviews\") + "Overwatch_ Zenyatta Ability Overview (EU).mp4");
                     DescriptionBorder.Visibility = Visibility.Collapsed;
                     break;
                 case ("Recall"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ _Recall_.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Recall_Thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ _Recall_.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Recall_Thumbnail.png"));
                     CreateDescription(0);
                     break;
                 case ("RiseShine"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ _Rise and Shine_.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Rise_and_Shine_thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ _Rise and Shine_.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Rise_and_Shine_thumbnail.png"));
                     CreateDescription(1);
                     break;
                 case ("LastBastion"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ _The Last Bastion_.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-The_Last_Bastion_thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ _The Last Bastion_.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-The_Last_Bastion_thumbnail.png"));
                     CreateDescription(2);
                     break;
                 case ("Infiltration"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ _Infiltration_.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Infiltration_thumbnail.jpg"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ _Infiltration_.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Infiltration_thumbnail.jpg"));
                     CreateDescription(3);
                     break;
                 case ("Alive"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Alive.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Alive_Thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Alive.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Alive_Thumbnail.png"));
                     CreateDescription(4);
                     break;
                 case ("Dragons"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Dragons.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Dragons_Thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Dragons.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Dragons_Thumbnail.png"));
                     CreateDescription(5);
                     break;
                 case ("Hero"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Hero.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Hero_Thumbnail.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Hero.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Hero_Thumbnail.png"));
                     CreateDescription(6);
                     break;
                 case ("HonorGlory"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Honor and Glory.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Honor_and_Glory.png"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Honor and Glory.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Honor_and_Glory.png"));
                     CreateDescription(7);
                     break;
                 case ("ShootingStar"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Shooting Star.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Shooting_Star_thumbnail.jpg"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Shooting Star.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Shooting_Star_thumbnail.jpg"));
                     CreateDescription(8);
                     break;
                 case ("Reunion"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Animated Short _ Reunion.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Reunion_thumbnail.jpg"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Animated Short _ Reunion.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Reunion_thumbnail.jpg"));
                     CreateDescription(9);
                     break;
                 case ("ThePlan"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\_Junkertown_ The Plan_ _ Overwatch.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-The_Plan_thumbnail.jpg"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "_Junkertown_ The Plan_ _ Overwatch.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-The_Plan_thumbnail.jpg"));
                     CreateDescription(10);
                     break;
                 case ("Cinematic"):
-                    MediaPlayer.Source = new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Videos\AnimatedShorts\Overwatch Cinematic Trailer.mp4");
-                    PlayerOverlay.Source = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Video Placeholders\1200px-Cinematic_Trailer_thumbnail.jpg"));
+                    MediaPlayer.Source = new Uri(Path.GetFullPath(@"..\..\Videos\AnimatedShorts\") + "Overwatch Cinematic Trailer.mp4");
+                    PlayerOverlay.Source = new BitmapImage(new Uri(Path.GetFullPath(@"..\..\Images\Video Placeholders\") + "1200px-Cinematic_Trailer_thumbnail.jpg"));
                     CreateDescription(11);
                     break;
             }
@@ -363,7 +363,7 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
         private void CreateDescription(int descriptionNumber)
         {
             // Read all lines from the txt file and store each line as a string in a list 
-            string[] lines = File.ReadAllLines(@"F:\WpfStarterAppV4\WpfStarterApp\TextFiles\VideoInfos\VideoDescriptions.txt");
+            string[] lines = File.ReadAllLines(Path.GetFullPath(@"..\..\TextFiles\VideoInfos\VideoDescriptions.txt"));
 
             Paragraph paragraph = new Paragraph();
 

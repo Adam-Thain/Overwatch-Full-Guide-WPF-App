@@ -23,6 +23,9 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
     /// </summary>
     public partial class CharacterStatsBox : Page
     {
+        /// <summary>
+        /// 
+        /// </summary>
         private CharacterStats statsModel;
 
         public class CharacterStats
@@ -85,11 +88,14 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
 
         public CharacterStatsBox(String Character)
         {
+            // Get the root
+            string root = System.IO.Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.System));
+
             // String for selected character
             string SelectedCharacter = Character;
 
             // Read all lines from the txt file and store each line as a string in a list 
-            string[] lines = File.ReadAllLines(@"F:\WpfStarterAppV4\WpfStarterApp\TextFiles\CharacterInfos\" + Character + "Info.txt");
+            string[] lines = File.ReadAllLines(System.IO.Path.GetFullPath(@"..\..\TextFiles\CharacterInfos\") + Character + "Info.txt");
 
             InitializeComponent();
 
@@ -97,9 +103,9 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
             statsModel = new CharacterStats()
             {
                 CallSign = lines[0],
-                PortraitImage = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Character Artworks\" + SelectedCharacter + "-portrait.png")),
-                PixelImage = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Sprites\Spray_" + SelectedCharacter + "_Pixel.png")),
-                CuteImage = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Cutes\Spray_" + SelectedCharacter + "_Cute.png")),
+                PortraitImage = new BitmapImage(new Uri(System.IO.Path.GetFullPath(@"..\..\Images\CharacterArtworks\") + SelectedCharacter + "-portrait.png")),
+                PixelImage = new BitmapImage(new Uri(System.IO.Path.GetFullPath(@"..\..\Images\Sprites\") + "Spray_" + SelectedCharacter + "_Pixel.png")),
+                CuteImage = new BitmapImage(new Uri(System.IO.Path.GetFullPath(@"..\..\Images\Cutes\") + "Spray_" + SelectedCharacter + "_Cute.png")),
                 RealName = lines[1],
                 Age = lines[2],
                 Nationality = lines[3],

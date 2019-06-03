@@ -46,3 +46,48 @@ C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Over
 C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.csproj.CoreCompileInputs.cache
 C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.exe
 C:\Users\adamr\Desktop\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.pdb
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\bin\Debug\Overwatch Full Guide WPF App.exe.config
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\bin\Debug\Overwatch Full Guide WPF App.exe
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\bin\Debug\Overwatch Full Guide WPF App.pdb
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\MainWindow.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\MainMenu.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\VideoSelect.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\App.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App_Content.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App_MarkupCompile.cache
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App_MarkupCompile.lref
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\App.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\CharacterSelectFrame.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\CharacterStatsBox.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\MapStatsBox.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\ContentHolders\VideoFrame.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\MainWindow.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Characters\CharacterInfoPage.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Characters\CharacterSelect.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\MainMenu.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Maps\MapInfoPage.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\Maps\MapSelect.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Pages\VideoSelect.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Resources\TextFiles.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Resources\Videos.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Styles\Buttons.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Styles\Colours.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Styles\Fonts.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Resources\Images.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Styles\Texts.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Styles\Windows.baml
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.g.resources
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch_Full_Guide_WPF_App.Properties.Resources.resources
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.csproj.GenerateResource.cache
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.csproj.CoreCompileInputs.cache
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.exe
+C:\Users\adamr\OneDrive\Documents\GitHub\Overwatch-Full-Guide-WPF-App\Overwatch Full Guide WPF App\WpfStarterApp\obj\Debug\Overwatch Full Guide WPF App.pdb

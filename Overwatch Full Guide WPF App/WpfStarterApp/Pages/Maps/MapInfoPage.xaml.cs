@@ -27,7 +27,7 @@ namespace Overwatch_Full_Guide_WPF_App.Pages.Maps
         public MapInfoPage(string Map)
         {
             // Read all lines from the txt file and store each line as a string in a list 
-            string[] lines = File.ReadAllLines(@"F:\WpfStarterAppV4\WpfStarterApp\TextFiles\MapInfos\" + Map + "Info.txt");
+            string[] lines = File.ReadAllLines(System.IO.Path.GetFullPath(@"..\..\TextFiles\MapInfos\") + Map + "Info.txt");
 
             // List to store all paragraphs
             List<Paragraph> Paragraphs = new List<Paragraph>();
@@ -55,8 +55,6 @@ namespace Overwatch_Full_Guide_WPF_App.Pages.Maps
                 Paragraphs.Add(p);
             }
 
-            ImageGalleryContainer.Child = ImageGalleryContent;
-            ImageGalleryContent.Content = new ImageGalleryFrame(Map);
             PageContentHolder.Blocks.Add(ImageGalleryContainer);
 
         }

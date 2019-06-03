@@ -54,7 +54,7 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
         public MapStatsBox(string Map)
         {
             // Read all lines from the txt file and store each line as a string in a list 
-            string[] lines = File.ReadAllLines(@"F:\WpfStarterAppV4\WpfStarterApp\TextFiles\MapInfos\" + Map + "Info.txt");
+            string[] lines = File.ReadAllLines(System.IO.Path.GetFullPath(@"..\..\TextFiles\MapInfos\") + Map + "Info.txt");
 
             InitializeComponent();
 
@@ -62,7 +62,7 @@ namespace Overwatch_Full_Guide_WPF_App.ContentHolders
             statsModel = new MapStats()
             {
                 Name = Map,
-                PortraitImage = new BitmapImage(new Uri(@"F:\WpfStarterAppV4\WpfStarterApp\Images\Maps\MapPortraits\" + Map + "_concept.jpg")),
+                PortraitImage = new BitmapImage(new Uri(System.IO.Path.GetFullPath(@"..\..\Images\Maps\MapPortraits\") + Map + ".jpg")),
                 Type = lines[0],
                 Location = lines[1],
                 Terrain = lines[2],

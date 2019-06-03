@@ -87,9 +87,6 @@
     <Compile Include="ContentHolders\CharacterStatsBox.xaml.cs">
       <DependentUpon>CharacterStatsBox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ContentHolders\ImageGalleryFrame.xaml.cs">
-      <DependentUpon>ImageGalleryFrame.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ContentHolders\MapStatsBox.xaml.cs">
       <DependentUpon>MapStatsBox.xaml</DependentUpon>
     </Compile>
@@ -123,10 +120,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ContentHolders\CharacterStatsBox.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ContentHolders\ImageGalleryFrame.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -350,33 +343,33 @@
     <Resource Include="Images\Cutes\Spray_Wrecking_Ball_Cute.png" />
     <Resource Include="Images\Cutes\Spray_Zarya_Cute.png" />
     <Resource Include="Images\Cutes\Spray_Zenyatta_Cute.png" />
-    <Resource Include="Images\Character Artworks\Orisa-portrait.png" />
-    <Resource Include="Images\Character Artworks\Winston-portrait.png" />
-    <Resource Include="Images\Character Artworks\Wrecking_Ball.png" />
-    <Resource Include="Images\Character Artworks\Ana-portrait.png" />
-    <Resource Include="Images\Character Artworks\Symmetra-portrait.png" />
-    <Resource Include="Images\Character Artworks\Moira-portrait.png" />
-    <Resource Include="Images\Character Artworks\Tracer-portrait.png" />
-    <Resource Include="Images\Character Artworks\Lúcio-portrait.png" />
-    <Resource Include="Images\Character Artworks\Mei-portrait.png" />
-    <Resource Include="Images\Character Artworks\Soldier76-portrait.png" />
-    <Resource Include="Images\Character Artworks\Brigitte-portrait.png" />
-    <Resource Include="Images\Character Artworks\Mccree-portrait.png" />
-    <Resource Include="Images\Character Artworks\Pharah-portrait.png" />
-    <Resource Include="Images\Character Artworks\Zenyatta-portrait.png" />
-    <Resource Include="Images\Character Artworks\Reaper-portrait.png" />
-    <Resource Include="Images\Character Artworks\Junkrat-Portrait.png" />
-    <Resource Include="Images\Character Artworks\Hanzo-portrait.png" />
-    <Resource Include="Images\Character Artworks\Genji-portrait.png" />
-    <Resource Include="Images\Character Artworks\Bastion-portrait.png" />
-    <Resource Include="Images\Character Artworks\DVa-portrait.png" />
-    <Resource Include="Images\Character Artworks\Roadhog-Portrait.png" />
-    <Resource Include="Images\Character Artworks\Sombra-portrait.png" />
-    <Resource Include="Images\Character Artworks\Zarya-portrait.png" />
-    <Resource Include="Images\Character Artworks\Reinhardt-portrait.png" />
-    <Resource Include="Images\Character Artworks\Torbjörn-portrait.png" />
-    <Resource Include="Images\Character Artworks\Mercy-portrait.png" />
-    <Resource Include="Images\Character Artworks\Widowmaker-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Orisa-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Winston-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Wrecking_Ball.png" />
+    <Resource Include="Images\CharacterArtworks\Ana-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Symmetra-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Moira-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Tracer-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Lúcio-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Mei-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Soldier76-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Brigitte-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Mccree-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Pharah-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Zenyatta-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Reaper-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Junkrat-Portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Hanzo-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Genji-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Bastion-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\DVa-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Roadhog-Portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Sombra-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Zarya-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Reinhardt-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Torbjörn-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Mercy-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Widowmaker-portrait.png" />
     <Resource Include="Images\Video Placeholders\1200px-Alive_Thumbnail.png" />
     <Resource Include="Images\Video Placeholders\1200px-Cinematic_Trailer_thumbnail.jpg" />
     <Resource Include="Images\Video Placeholders\1200px-Dragons_Thumbnail.png" />
@@ -389,7 +382,7 @@
     <Resource Include="Images\Video Placeholders\1200px-Shooting_Star_thumbnail.jpg" />
     <Resource Include="Images\Video Placeholders\1200px-The_Last_Bastion_thumbnail.png" />
     <Resource Include="Images\Video Placeholders\1200px-The_Plan_thumbnail.jpg" />
-    <Resource Include="Images\Character Artworks\Doomfist-portrait.png" />
+    <Resource Include="Images\CharacterArtworks\Doomfist-portrait.png" />
     <Resource Include="Images\Misc\video-play-3-512.png" />
     <Resource Include="Images\Misc\play-button-circled.png" />
     <Resource Include="Images\Misc\play.png" />
@@ -479,7 +472,7 @@
     <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_008.jpg" />
     <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_009.jpg" />
     <Resource Include="Images\Maps\Hanamura\1200px-Hanamura_010.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Hanamura_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Hanamura.jpg" />
     <Resource Include="Images\Maps\TempleOfAnubis\1200px-Anubis_concept.jpg" />
     <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_001.jpg" />
     <Resource Include="Images\Maps\TempleOfAnubis\1200px-Temple_of_Anubis_002.jpg" />
@@ -491,7 +484,7 @@
     <Resource Include="Images\Maps\Junkertown\1200px-Junkertown.jpg" />
     <Resource Include="Images\Maps\Rialto\1200px-Rialto.jpg" />
     <Resource Include="Images\Maps\Route66\1200px-Route_66.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\WatchpointGibraltar_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\WatchpointGibraltar.jpg" />
     <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_1.jpg" />
     <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_2.jpg" />
     <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_3.jpg" />
@@ -499,7 +492,6 @@
     <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_5.jpg" />
     <Resource Include="Images\Maps\WatchpointGibraltar\1200px-Watchpoint_screen_6.jpg" />
     <Resource Include="Images\Maps\BlizzardWorld\1200px-Blizzard_World.jpg" />
-    <Resource Include="Images\Maps\Eichenwalde\1200px-Eichenwalde.png" />
     <Resource Include="Images\Maps\Hollywood\1200px-Halloween_Hollywood.png" />
     <Resource Include="Images\Maps\Hollywood\1200px-Hollywood-set.jpg" />
     <Resource Include="Images\Maps\KingsRow\1200px-King%27s_Row_concept.jpg" />
@@ -518,23 +510,26 @@
     <Resource Include="Images\Maps\LijiangTower\1200px-Lijiang_Tower_loading_screen.jpg" />
     <Resource Include="Images\Maps\Nepal\1200px-Nepal_loading_screen.jpg" />
     <Resource Include="Images\Maps\Oasis\1200px-Oasis.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\BlizzardWorld_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\1200px-Eichenwalde.png" />
-    <Resource Include="Images\Maps\MapPortraits\Nepal_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Numbani_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Oasis_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\TempleOfAnubis_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Route66_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Rialto_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\LijiangTower_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\KingsRow_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Junkertown_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Ilios_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Hollywood_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Dorado_concept.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\Busan_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\BlizzardWorld.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Nepal.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Numbani.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Oasis.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\TempleOfAnubis.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Route66.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Rialto.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\LijiangTower.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\KingsRow.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Junkertown.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Ilios.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Hollywood.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Dorado.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Busan.jpg" />
     <Resource Include="Images\Maps\VolskayaIndustries\1200px-Volskaya_Industries.jpg" />
-    <Resource Include="Images\Maps\MapPortraits\VolskayaIndustries_concept.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\VolskayaIndustries.jpg" />
+    <Resource Include="Images\Maps\HorizonLunarColony\HorizonLunarColony.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\HorizonLunarColony.jpg" />
+    <Resource Include="Images\Maps\Eichenwalde\Eichenwalde.jpg" />
+    <Resource Include="Images\Maps\MapPortraits\Eichenwalde.jpg" />
     <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Infiltration_.mp4" />
     <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Recall_.mp4" />
     <Content Include="Videos\AnimatedShorts\Overwatch Animated Short _ _Rise and Shine_.mp4" />
@@ -573,9 +568,7 @@
     <Content Include="Videos\CharacterOverviews\[NEW HERO – NOW PLAYABLE] Introducing Sombra _ Overwatch.mp4" />
     <Content Include="Videos\CharacterOverviews\[NEW HERO] Introducing Ana _ Overwatch.mp4" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\Maps\HorizonLunarColony\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.3.3.2\build\Fody.targets" Condition="Exists('..\packages\Fody.3.3.2\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
